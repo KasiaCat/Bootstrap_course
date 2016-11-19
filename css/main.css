@@ -1,0 +1,114 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+/*height for medium and large screen */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 230px;
+  font-family: 'Open Sans', sans-serif;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 230px;
+  background-color: #333;
+  color: #efefef;
+  padding: 30px 0;
+}
+/*height for snall screen */
+@media only screen and (max-width:768px) {
+    body { margin-bottom: 400px; }
+    .footer { height: 400px; }
+}
+
+.footer a {
+    color: #639bcf;
+}
+
+.footer a:hover {
+    color: #d8e6f3;
+}
+
+.well {
+    background-color: transparent;
+}
+
+.lead {
+    color: #555;
+}
+
+.btn-lg {
+    padding: 14px 20px;
+    margin-right: 20px;
+}
+
+/* index.html */
+.features .glyphicon {
+    font-size: 32px;
+}
+
+.container {
+    max-width: 960px;
+}
+
+/*Vanigation panel */
+
+.navbar {
+    background-color: #6495ed;
+}
+
+.navbar a {
+    color: #d8e6f3;
+}
+
+.navbar a:hover {
+    color: #fff;
+}
+
+.nav>li>a:focus,
+.nav>li>a:hover,
+.nav .open>a, 
+.nav .open>a:focus, 
+.nav .open>a:hover
+.dropdown-menu>li>a:focus, 
+.dropdown-menu>li>a:hover {
+    background-color: #204d74;
+    color: #fff;
+}
+
+.navbar-toggle .icon-bar {  
+    background-color: #d8e6f3;
+}
+
+@media only screen and (max-width:768px) {
+    .dropdown-menu>li>a {
+        color: #d8e6f3;
+    }
+}
+
+/* blog.html */
+.about .fa-fighter-jet {
+    font-size: 45px;
+}
+
+.posts h1 a {
+    color: #444;
+}
+
+.post-info {
+    margin-bottom: 1em;
+    color: #777;
+}
+
+.post-info li {
+    border-right: 1px solid #ddd;
+}
+
+.post-info li:last-child {
+    border-right: none;
+}
